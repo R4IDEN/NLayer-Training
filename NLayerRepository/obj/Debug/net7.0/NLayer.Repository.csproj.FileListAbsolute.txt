@@ -1,0 +1,15 @@
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\bin\Debug\net7.0\NLayer.Repository.deps.json
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\bin\Debug\net7.0\NLayer.Repository.dll
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\bin\Debug\net7.0\NLayer.Repository.pdb
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\bin\Debug\net7.0\NLayer.Core.dll
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\bin\Debug\net7.0\NLayer.Core.pdb
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\NLayer.Repository.csproj.AssemblyReference.cache
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\NLayer.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\NLayer.Repository.AssemblyInfoInputs.cache
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\NLayer.Repository.AssemblyInfo.cs
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\NLayer.Repository.csproj.CoreCompileInputs.cache
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\NLayer.Repository.csproj.CopyComplete
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\NLayer.Repository.dll
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\refint\NLayer.Repository.dll
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\NLayer.Repository.pdb
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayerRepository\obj\Debug\net7.0\ref\NLayer.Repository.dll

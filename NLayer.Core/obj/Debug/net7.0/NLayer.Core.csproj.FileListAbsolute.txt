@@ -1,0 +1,11 @@
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\bin\Debug\net7.0\NLayer.Core.deps.json
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\bin\Debug\net7.0\NLayer.Core.dll
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\bin\Debug\net7.0\NLayer.Core.pdb
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\obj\Debug\net7.0\NLayer.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\obj\Debug\net7.0\NLayer.Core.AssemblyInfoInputs.cache
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\obj\Debug\net7.0\NLayer.Core.AssemblyInfo.cs
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\obj\Debug\net7.0\NLayer.Core.csproj.CoreCompileInputs.cache
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\obj\Debug\net7.0\NLayer.Core.dll
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\obj\Debug\net7.0\refint\NLayer.Core.dll
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\obj\Debug\net7.0\NLayer.Core.pdb
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.Core\obj\Debug\net7.0\ref\NLayer.Core.dll
