@@ -25,6 +25,16 @@ namespace NLayer.Repository
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
+            //Seed dosyası oluşturmak yerine ProductFeatures default değerlerini burada aşağıdaki şekilde atıyoruz.
+            modelBuilder.Entity<ProductFeature>().HasData(new ProductFeature()
+            {
+                Id = 1,
+                Color = "Carbonfiber gray",
+                Weight = 20,
+                Height = 20,
+                ProductId = 1,
+            });
+
             base.OnModelCreating(modelBuilder);
         }
 
