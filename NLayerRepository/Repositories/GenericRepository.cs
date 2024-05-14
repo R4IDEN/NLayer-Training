@@ -30,9 +30,12 @@ namespace NLayer.Repository.Repositories
             return await _dbSet.AnyAsync(expression);
         }
 
-        //AsQueryable'dan sonra to list veya Any demedik. Bunun sebebi eğer ki listeleme veya başka bir işlem yapmak istiyorsak onu yapıp ondan sonra data'yı çekmek db'den.
-        //AsNoTracking demezsek bu dataları memory'e alıp onları track etmek için performans gücünün bir kısmını buna aktaracak.
-        public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
+         /*
+         * AsQueryable'dan sonra to list veya Any demedik. Bunun sebebi eğer ki listeleme veya 
+         * başka bir işlem yapmak istiyorsak onu yapıp ondan sonra data'yı çekmek db'den.
+         * AsNoTracking demezsek bu dataları memory'e alıp onları track etmek için performans gücünün bir kısmını buna aktaracak.
+         */
+        public IQueryable<T> GetAll()
         {
             return _dbSet.AsNoTracking().AsQueryable();
         }
@@ -42,7 +45,10 @@ namespace NLayer.Repository.Repositories
             return await _dbSet.FindAsync(id);
         }
 
-        //Remove metodunun async hali yok, biz burdan remove dediğimizde state'i deleted olarak flagleniyor. SaveChanges komutu çalıştığında veritabanından siliniyor.
+         /*
+         * Remove metodunun async hali yok, biz burdan remove dediğimizde state'i deleted 
+         * olarak flagleniyor. SaveChanges komutu çalıştığında veritabanından siliniyor.
+         */
         public void Remove(T entity)
         {
             //_context.Entry(entity).State = EntityState.Deleted;
@@ -62,7 +68,7 @@ namespace NLayer.Repository.Repositories
 
         public IQueryable<T> Where(Expression<Func<T, bool>> expression)
         {
-           return _dbSet.Where(expression);
+            return _dbSet.Where(expression);
         }
     }
 }

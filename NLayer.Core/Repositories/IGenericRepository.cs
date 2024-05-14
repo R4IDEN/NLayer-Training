@@ -6,7 +6,7 @@ namespace NLayer.Core.Repositories
     {
         Task<T> GetByIdAsync(int id);
 
-        IQueryable<T> GetAll(Expression<Func<T,bool>> expression);
+        IQueryable<T> GetAll();
         // ProductRepository.Where(x=>x.id>5)
         // IQeryable'ı tek başına kullanıp ToList demememizin sebebi ToList dediğimizde veri tabanına gidip veriyi alıp dönmesi.
         
