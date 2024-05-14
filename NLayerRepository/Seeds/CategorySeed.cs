@@ -11,7 +11,7 @@ namespace NLayer.Repository.Seeds
             //burada veri tabanı oluşurken oluşturacağımız default değerleri ekliyoruz. Örn;
             builder.HasData(new Category { Id = 1, Name = "Gaming Computers" });
             builder.HasData(new Category { Id = 2, Name = "Office Computers" });
-            builder.HasData(new Category { Id = 2, Name = "Monitors" });
+            builder.HasData(new Category { Id = 3, Name = "Monitors" });
 
         }
     }
