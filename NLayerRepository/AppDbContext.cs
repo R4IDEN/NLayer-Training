@@ -23,6 +23,7 @@ namespace NLayer.Repository
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //Bu assembly'den tüm konfigürasyon dosyalarını okuyor.
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
             //Seed dosyası oluşturmak yerine ProductFeatures default değerlerini burada aşağıdaki şekilde atıyoruz.
