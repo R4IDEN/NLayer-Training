@@ -81,3 +81,4 @@ C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.API\bin
 C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.API\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.API\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\qqq\Documents\Visual Studio 2022\Projects\NLayerTraining\NLayer.API\obj\Debug\net7.0\NLayer.API.MvcApplicationPartsAssemblyInfo.cs
