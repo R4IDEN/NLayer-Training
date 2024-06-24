@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using NLayer.API.Filters;
 using NLayer.Core.DTOs;
 using NLayer.Core.Models;
 using NLayer.Core.Services;
@@ -33,6 +34,12 @@ namespace NLayer.API.Controllers
             return CreateActionResult(CustomResponseDTO<List<ProductDTO>>.Success(200, productsDTOs));
         }
 
+        /*
+         * Eğer bu filter constructor'ında bir parametre alıyor ise;
+         * Bunu burdaki gibi serviceFilter ile kullanmak ve
+         * Program cs'e bu filter'ın eklenmiş olması lazım.
+         */
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {

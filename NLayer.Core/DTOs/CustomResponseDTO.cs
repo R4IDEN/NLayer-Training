@@ -41,5 +41,14 @@ namespace NLayer.Core.DTOs
                 StatusCode = statusCode
             };
         }
+
+        public static CustomResponseDTO<T> Fail(int statusCode, string error)
+        {
+            return new CustomResponseDTO<T>
+            {
+                StatusCode = statusCode,
+                Errors = new List<string> { error }
+            };
+        }
     }
 }
