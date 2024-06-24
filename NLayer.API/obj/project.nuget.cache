@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qOBKeOHmbVnj4FaL8DN3FXN3voGYuoAkcBXEuaqCGC7ZrjGoPu4R5DYzXeRcI76dZCln3c0YJ7H57ZtD6oSelA==",
+  "dgSpecHash": "0KE2uDVAGtuBxv04VvT/JS4IfDhhYYPiC7pvR0mIDhQQten58jXPbNJrPwBTYYTenGsXhH+hvfQbTKw9bZT7fQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\qqq\\Documents\\Visual Studio 2022\\Projects\\NLayerTraining\\NLayer.API\\NLayer.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\qqq\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\qqq\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\qqq\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\qqq\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\qqq\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
