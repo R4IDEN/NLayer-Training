@@ -1297,6 +1297,19 @@
           }
         }
       },
+      "NLayer.Caching/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "NLayer.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NLayer.Caching.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NLayer.Caching.dll": {}
+        }
+      },
       "NLayer.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3698,6 +3711,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "NLayer.Caching/1.0.0": {
+      "type": "project",
+      "path": "../NLayer.Caching/NLayer.Caching.csproj",
+      "msbuildProject": "../NLayer.Caching/NLayer.Caching.csproj"
+    },
     "NLayer.Core/1.0.0": {
       "type": "project",
       "path": "../NLayer.Core/NLayer.Core.csproj",
@@ -3720,7 +3738,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.18",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.18",
-      "NLayer.Service >= 1.0.0",
+      "NLayer.Caching >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -3751,8 +3769,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\qqq\\Documents\\Visual Studio 2022\\Projects\\NLayerTraining\\NLayer.Service\\NLayer.Service.csproj": {
-              "projectPath": "C:\\Users\\qqq\\Documents\\Visual Studio 2022\\Projects\\NLayerTraining\\NLayer.Service\\NLayer.Service.csproj"
+            "C:\\Users\\qqq\\Documents\\Visual Studio 2022\\Projects\\NLayerTraining\\NLayer.Caching\\NLayer.Caching.csproj": {
+              "projectPath": "C:\\Users\\qqq\\Documents\\Visual Studio 2022\\Projects\\NLayerTraining\\NLayer.Caching\\NLayer.Caching.csproj"
             }
           }
         }
